@@ -1,0 +1,12 @@
+# Runtime state — not source code
+pool_state.json
+openvpn.pid
+openvpn.log
+
+# Credentials (even public — keep out of repo)
+configs/vpn_auth.txt
+
+# VPN configs are downloaded at runtime, not committed
+configs/vpngate/
+configs/vpnbook/
+configs/wireguard_free/
